@@ -31,7 +31,7 @@ include_directories(
 )
 
 add_library(decay_layer SHARED
-  src/decay_layer.cpp
+  src/persistent_obstacle_layer.cpp
   src/decay_obstacle_layer.cpp)
 
 ament_target_dependencies(decay_layer

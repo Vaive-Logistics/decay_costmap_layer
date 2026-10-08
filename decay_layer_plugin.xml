@@ -1,12 +1,12 @@
 <library path="decay_layer">
   <class
-    type="decay_costmap_layer::DecayLayer"
+    type="decay_costmap_layer::PersistentObstacleLayer"
     base_class_type="nav2_costmap_2d::Layer">
-    <description>Simple time-decay costmap layer</description>
+    <description>Simple persistent obstacle costmap layer</description>
   </class>
    <class
     type="decay_costmap_layer::DecayObstacleLayer"
     base_class_type="nav2_costmap_2d::Layer">
-    <description>Simple time-decay and obstacle costmap layer</description>
+    <description>Simple time-decay obstacle costmap layer</description>
   </class>
 </library>
